@@ -18,6 +18,7 @@ public class MataKuliah22 {
     }
 
     public static void tambahData(MataKuliah22[] arrayMataKuliah) {
+        @SuppressWarnings("resource")
         Scanner sc = new Scanner(System.in);
         for (int i = 0; i < arrayMataKuliah.length; i++) {
             arrayMataKuliah[i] = new MataKuliah22();

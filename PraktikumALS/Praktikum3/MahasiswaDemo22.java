@@ -5,6 +5,7 @@ import java.util.Scanner;
 public class MahasiswaDemo22 {
     public static void main(String[] args) {
 
+        @SuppressWarnings("resource")
         Scanner sc = new Scanner(System.in);
         Mahasiswa22[] arrayOfMahasiswa = new Mahasiswa22[3];
         String dummy;
