@@ -1,4 +1,4 @@
-package PraktikumALS;
+package PraktikumALS.Praktikum1dan2;
 
 public class MataKuliah22 {
     String kodeMk;

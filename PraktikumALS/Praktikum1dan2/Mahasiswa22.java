@@ -1,4 +1,4 @@
-package PraktikumALS;
+package PraktikumALS.Praktikum1dan2;
 
 public class Mahasiswa22 {
         String nama;
@@ -17,7 +17,6 @@ public class Mahasiswa22 {
         }
 
         public Mahasiswa22(String string, String string2, String string3, double d) {
-            //TODO Auto-generated constructor stub
         }
 
         void tampilkanInformasi() {
