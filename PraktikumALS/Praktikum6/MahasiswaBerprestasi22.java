@@ -1,4 +1,4 @@
-package PraktikumALS.Praktikum6;
+package Praktikum6;
 
 public class MahasiswaBerprestasi22 {
     Mahasiswa22 [] listMhs = new Mahasiswa22[5];

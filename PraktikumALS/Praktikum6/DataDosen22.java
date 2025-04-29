@@ -1,4 +1,4 @@
-package PraktikumALS.Praktikum6;
+package Praktikum6;
 
 public class DataDosen22 {
     Dosen22[] listDosen = new Dosen22[10];

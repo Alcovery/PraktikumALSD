@@ -1,4 +1,4 @@
-package PraktikumALS.Praktikum3;
+package Praktikum3;
 
 public class DataDosen22 {
     public void dataSemuaDosen(Dosen22[] arrayOfDosen) {

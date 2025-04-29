@@ -1,4 +1,4 @@
-package PraktikumALS.Praktikum6;
+package Praktikum6;
 
 public class Dosen22 {
     String kode;

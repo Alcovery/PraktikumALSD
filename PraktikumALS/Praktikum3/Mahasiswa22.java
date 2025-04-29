@@ -1,4 +1,4 @@
-package PraktikumALS.Praktikum3;
+package Praktikum3;
 
 public class Mahasiswa22 {
     public String nim;

@@ -1,4 +1,4 @@
-package PraktikumALS.Minggu5;
+package Minggu5;
 
 public class Faktorial {
 

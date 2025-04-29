@@ -1,4 +1,4 @@
-package PraktikumALS.Praktikum1dan2;
+package Praktikum1dan2;
 
 public class Dosen22 {
     String idDosen;
