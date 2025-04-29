@@ -62,5 +62,14 @@ public class StackTugasMahasiswa22 {
         }
         System.out.println("");
     }
+    public int jumlahTugas() {
+        return top + 1;
+    }
 
+    public Mahasiswa22 lihatTugasTerbawah() {
+        if (!isEmpty()) {
+            return stack[0];
+        }
+        return null;
+    }
 }
