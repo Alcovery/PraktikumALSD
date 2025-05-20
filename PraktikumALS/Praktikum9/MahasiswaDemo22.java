@@ -4,15 +4,16 @@ import java.util.Scanner;
 
 public class MahasiswaDemo22 {
     public static void main(String[] args) {
-        @SuppressWarnings("resource")
         Scanner sc = new Scanner(System.in);
-        int pilih = sc.nextInt();
+        int pilih;
+            
+        
 
         StackTugasMahasiswa22 stack = new StackTugasMahasiswa22(5);
 
         do {
             System.out.println("\nMenu:");
-            System.out.println("1. Mengumpulkan Tugas");
+         System.out.println("1. Mengumpulkan Tugas");
             System.out.println("2. Menilai Tugas");
             System.out.println("3. Melihat Tugas Teratas");
             System.out.println("4. Melihat Daftar Tugas");

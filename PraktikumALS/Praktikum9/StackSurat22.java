@@ -54,4 +54,7 @@ public class StackSurat22 {
         }
         return false;
     }
+    public int jumlahSurat() {
+        return top + 1;
+    }
 }
