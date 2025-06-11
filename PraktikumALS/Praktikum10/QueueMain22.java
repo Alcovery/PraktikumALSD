@@ -14,7 +14,8 @@ public class QueueMain22 {
         System.out.println("------------------");
     }
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        @SuppressWarnings("resource")
+		Scanner sc = new Scanner(System.in);
     System.out.print("Masukkan kapasitas queue: ");
     int n = sc.nextInt();
     Queue22 Q = new Queue22(n);

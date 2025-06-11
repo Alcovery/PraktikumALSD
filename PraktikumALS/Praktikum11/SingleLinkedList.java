@@ -2,6 +2,7 @@ package Praktikum11;
 
 import java.lang.classfile.components.ClassPrinter.Node;
 
+@SuppressWarnings("unused")
 public class SingleLinkedList {
 
     NodeMahasiswa22 head;

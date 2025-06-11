@@ -6,8 +6,6 @@ public class Dosen22 {
     boolean jenisKelamin; // true pria, false wanita
     int usia;
 
-    Dosen22() {}
-
     Dosen22(String kd, int us) {
         kode = kd;
         usia = us;

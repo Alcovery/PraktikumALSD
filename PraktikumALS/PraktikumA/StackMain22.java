@@ -5,6 +5,7 @@ public class StackMain22 {
     public static void main(String[] args) {
         
     Stack22 stk = new Stack22(5);
+    @SuppressWarnings("resource")
     Scanner sc = new Scanner(System.in);
 
     char pilih;

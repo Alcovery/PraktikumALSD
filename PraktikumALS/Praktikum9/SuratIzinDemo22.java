@@ -4,7 +4,8 @@ import java.util.Scanner;
 
 public class SuratIzinDemo22 {
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        @SuppressWarnings("resource")
+		Scanner sc = new Scanner(System.in);
         StackSurat22 stackSurat = new StackSurat22(10);
         int pilihan;
         

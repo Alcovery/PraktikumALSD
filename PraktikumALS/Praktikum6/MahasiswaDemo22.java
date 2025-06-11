@@ -1,8 +1,13 @@
 package Praktikum6;
 
+import java.util.Scanner;
+
 public class MahasiswaDemo22 {
     public static void main(String[] args) {
         MahasiswaBerprestasi22 list = new MahasiswaBerprestasi22();
+        Scanner sc = new Scanner(System.in);
+        int jumMhs = 5;
+        
         Mahasiswa22 m1 = new Mahasiswa22("123","Zidan", "2A", 3.2);
         Mahasiswa22 m2 = new Mahasiswa22("124","Ayu", "2A", 3.5);
         Mahasiswa22 m3 = new Mahasiswa22("125","Sofi", "2A", 3.1);

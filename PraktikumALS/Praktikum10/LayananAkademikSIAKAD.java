@@ -4,6 +4,7 @@ import java.util.Scanner;
 
 public class LayananAkademikSIAKAD {
     public static void main(String[] args) {
+        @SuppressWarnings("resource")
         Scanner sc = new Scanner(System.in);
         AntrianLayanan antrian = new AntrianLayanan(5);
         int pilihan;

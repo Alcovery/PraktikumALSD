@@ -2,18 +2,21 @@ package Praktikum12;
 
 import java.util.Scanner;
 
+import javax.swing.text.MaskFormatter;
+
+@SuppressWarnings("unused")
 public class DLLMain {
 
-    public static Mahasiswa22 inputMahasiswa(Scanner scan) {
+    public static Mahasiswa22 inputMahasiswa(Scanner sc) {
         System.out.print("Masukkan NIM: ");
-        String nim = scan.nextLine();
+        String nim = sc.nextLine();
         System.out.print("Masukkan Nama: ");
-        String nama = scan.nextLine();
+        String nama = sc.nextLine();
         System.out.print("Masukkan Kelas: ");
-        String kelas = scan.nextLine();
+        String kelas = sc.nextLine();
         System.out.print("Masukkan IPK: ");
-        double ipk = scan.nextDouble();
-        scan.nextLine();
+        double ipk = sc.nextDouble();
+        sc.nextLine();
         return new Mahasiswa22(nim, nama, kelas, ipk);
     }
     public static void main(String[] args) {
@@ -29,6 +32,7 @@ public class DLLMain {
             System.out.println("4. Hapus di akhir");
             System.out.println("5. Tampilkan data");
             System.out.println("6. Cari Mahasiswa berdasarkan NIM");
+            System.out.println("7. Tambah setelah nim tertentu");
             System.out.println("0. Keluar");
             System.out.print("Pilih Menu: ");
             pilihan = sc.nextInt();
@@ -56,6 +60,12 @@ public class DLLMain {
                     } else {
                         System.out.println("Data tidak ditemukan");
                     }
+                }
+                case 7 -> {
+                    System.out.println("Masukkan nim: ");
+                    String nim = sc.nextLine();
+                    Mahasiswa22 mhs = inputMahasiswa(sc);
+                    list.insertAfter(nim, mhs);
                 }
                 case 0 -> System.out.println("Keluar dari program. ");
                 default -> System.out.println("Pilihan tidak valid! ");

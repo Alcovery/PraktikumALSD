@@ -79,4 +79,11 @@ public class QueueLinkedList {
     public void jumlahAntrian() {
         System.out.println("Jumlah mahasiswa yang masih mengantri: " + size);
     }
+    Mahasiswa getFront(){
+    return front.data;
+    }
+    Mahasiswa getRear() {
+        return rear.data;
+    }
+
 }
