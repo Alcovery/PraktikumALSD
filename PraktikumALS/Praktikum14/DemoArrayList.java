@@ -28,10 +28,13 @@ public class DemoArrayList {
 
         customers.addAll(newCustomers);
 
+        customers.sort((a,b) -> a.name.compareTo(b.name));
+
         for (Customer cust: customers) {
             System.out.println(cust.toString());
+        }
 
             System.out.println(customers);
-        }
+        
     }
 }

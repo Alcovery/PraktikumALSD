@@ -15,10 +15,6 @@ public class TreeSetDemo {
             System.out.println(temp);
         }
 
-        for (String temp : fruits) {
-            System.out.println(temp);
-        }
-
         System.out.println("First: " + fruits.first());
         System.out.println("First: " + fruits.last());
 

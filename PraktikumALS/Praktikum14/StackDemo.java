@@ -23,6 +23,8 @@ public class StackDemo {
         for (Book book : books) {
             System.out.println(book.toString());
         }
+
+        int posisi = books.search(book1);
         System.out.println(books);
     }
 }
